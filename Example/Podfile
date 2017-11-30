@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CatModule_Example' do
+  pod 'CatModule', :path => '../'
+
+  target 'CatModule_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
