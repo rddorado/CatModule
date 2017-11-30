@@ -1,6 +1,6 @@
 
 class Cat {
     func makeSound() {
-        print("Meow 2.0")
+        print("Meow 3.0")
     }
 }
